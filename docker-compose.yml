@@ -5,7 +5,7 @@ services:
     container_name: boiler_pgdb
     restart: always
     image: postgres:13-alpine
-    environment: 
+    environment:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
@@ -21,7 +21,7 @@ services:
     build:
       context: backend
       dockerfile: Dockerfile
-    command: 
+    command:
       # ["python", "manage.py", "runserver", "0.0.0.0:8000"]
       ["gunicorn", "--bind", ":8000", "backend.wsgi:application"]
     volumes:
@@ -42,7 +42,7 @@ services:
     networks:
       - core
     command:
-      "yarn run dev"
+      "npm run dev"
     volumes:
       - ./webapp:/webapp
       - /var/run/docker.sock:/var/run/docker.sock
@@ -61,7 +61,7 @@ services:
       - static:/app/backend/static
     ports:
       - 80:80
-    links: 
+    links:
       - backend
       - webapp
     networks:
