@@ -1,6 +1,6 @@
 import React from 'react';
-import {Button, Htag, Input, P, Textarea} from '../components';
-import {withLayout} from '../layout/Layout';
+import {Button, Htag, Input, P, Search, Textarea} from '@/components';
+import {withLayout} from '@/layout/Layout';
 
 
 function Home(): JSX.Element {
@@ -14,6 +14,7 @@ function Home(): JSX.Element {
             <P size='s'>Маленький</P>
             <Input placeholder='тест'/>
             <Textarea placeholder='тест area'/>
+            <Search />
         </>
     );
 }
