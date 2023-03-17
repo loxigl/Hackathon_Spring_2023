@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Htag, Input, P, Search, Textarea} from '@/components';
+import {Button, Htag, Input, P, Search, Textarea} from '../components';
 import {withLayout} from '@/layout/Layout';
 
 
