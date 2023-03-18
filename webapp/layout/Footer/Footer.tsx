@@ -9,7 +9,7 @@ export const Footer = ({ className, ...props }: FooterProps): JSX.Element => {
 		<footer className={cn(className, styles.footer)} {...props}>
 			<div className={styles.footerWrapper}>
         <div className={styles.copyright}>
-          Terra Quiz © 2020 - {format(new Date(), 'yyyy')} Все права защищены
+          TerraQuiz © 2023 - {format(new Date(), 'yyyy')} Все права защищены
         </div>
       </div>
 		</footer>

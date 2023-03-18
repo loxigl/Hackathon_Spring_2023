@@ -10,7 +10,7 @@ export const Header = ({ className, ...props }: HeaderProps): JSX.Element => {
 			<nav className={styles.headerWrapper}>
         <Link className={styles.logoWrapper} href={'/'}>
           <Logo className={styles.logo} width={64} height={64}/>
-          <span className={styles.logoText}>Terra Quiz</span>
+          <span className={styles.logoText}>TerraQuiz</span>
         </Link>
         <div className={styles.siteList}>
           <Link className={styles.siteLink} href={'quizzes'}>
