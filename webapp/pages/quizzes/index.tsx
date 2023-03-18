@@ -5,7 +5,7 @@ import {withLayout} from '@/layout/Layout';
 function Quizzes(): JSX.Element {
   return (
     <>
-      Quizzes
+      Страница с викторинами
     </>
   );
 }

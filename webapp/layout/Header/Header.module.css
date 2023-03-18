@@ -1,5 +1,52 @@
 .header {
-	width: 1200px;
-	min-height: 60px;
-	margin: 0 auto;
+  min-height: 60px;
+  background: linear-gradient(180deg, var(--white) 0%, var(--white) 76%, transparent 100%);
+  padding: 10px 0 40px;
+}
+
+.headerWrapper {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logoWrapper:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.logoText {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  color: var(--black)
+}
+
+.siteList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.siteLink {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--primary);
+}
+
+.siteLink:hover {
+  color: var(--primary-hover);
 }

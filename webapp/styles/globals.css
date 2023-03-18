@@ -34,13 +34,13 @@ a {
 }
 
 :root {
-	--black: #3B434E;
+	--black: #000000;
 	--gray-light: #EBEBEB;
 	--gray: #A4A4A4;
 	--gray-dark: #6C7077;
 	--white: white;
-	--primary: #7351F5;
-	--primary-hover: #6344DF;
+	--primary: #febe15;
+	--primary-hover: #dda512;
 	--red-light: #FEA291;
 	--red: #FC836D;
 	--green: #007B48;
