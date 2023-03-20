@@ -1,7 +1,7 @@
 module.exports = {
-  // images: {
-  //     domains: ['courses-top.ru']
-  // },
+  images: {
+    domains: ['lh3.googleusercontent.com'],
+  },
   webpack: (config) => {
     config.module.rules.push(
       // {
