@@ -5,7 +5,7 @@ services:
     container_name: db
     restart: always
     image: postgres:13-alpine
-    environment: 
+    environment:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
@@ -18,12 +18,14 @@ services:
       - ./backend/dump.sql:/docker-entrypoint-initdb.d/dump.sql
   backend:
     container_name: backend
+    environment:
+      - DEBUG=False
     build:
       context: backend
       dockerfile: Dockerfile
-    command: 
+    command:
       # ["python", "manage.py", "runserver", "0.0.0.0:8000"]
-      ["gunicorn", "--bind", ":8000", "backend.wsgi:application"]
+      [ "gunicorn", "--bind", ":8000", "backend.wsgi:application" ]
     volumes:
       - ./backend:/app/backend
       - /var/run/docker.sock:/var/run/docker.sock
@@ -61,12 +63,12 @@ services:
       - static:/app/backend/static
     ports:
       - 80:80
-    links: 
+    links:
       - backend
       - webapp
     networks:
       - core
-    command: [nginx-debug, '-g', 'daemon off;']
+    command: [ nginx-debug, '-g', 'daemon off;' ]
 
 networks:
   core:

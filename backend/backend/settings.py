@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'h)0*!!bdzs6gqtovw#!$0h66xz-)5-_9sn8jd(r$$&^ht*^@ym'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get("DEBUG", True)
 
 ALLOWED_HOSTS = ['localhost', '194.67.113.15', '127.0.0.1']
 
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'quiz',
 ]
 
 MIDDLEWARE = [
@@ -81,7 +82,15 @@ DATABASES = {
         'PASSWORD': 'postgres',
         'HOST': 'db',
         'PORT': 5432,
-    }
+    },
+    'db': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'dayzliderkrut',
+        'HOST': 'localhost',
+        'PORT': 5432,
+    },
 }
 
 # Password validation
@@ -120,6 +129,8 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
+MEDIA_ROOT = os.path.join(BASE_DIR / 'media')
+MEDIA_URL = '/media/'
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
