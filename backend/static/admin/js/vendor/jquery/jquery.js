@@ -494,7 +494,7 @@ if ( typeof Symbol === "function" ) {
 	jQuery.fn[ Symbol.iterator ] = arr[ Symbol.iterator ];
 }
 
-// Populate the class2type map
+// Populate the class2type MapComponent
 jQuery.each( "Boolean Number String Function Array Date RegExp Object Error Symbol".split( " " ),
 function( _i, name ) {
 	class2type[ "[object " + name + "]" ] = name.toLowerCase();
@@ -2521,7 +2521,7 @@ function setMatcher( preFilter, selector, matcher, postFilter, postFinder, postS
 				[]
 			),
 
-			// Prefilter to get matcher input, preserving a map for seed-results synchronization
+			// Prefilter to get matcher input, preserving a MapComponent for seed-results synchronization
 			matcherIn = preFilter && ( seed || !selector ) ?
 				condense( elems, preMap, preFilter, context, xml ) :
 				elems,
@@ -3719,7 +3719,7 @@ jQuery.extend( {
 					return jQuery.Deferred( function( newDefer ) {
 						jQuery.each( tuples, function( _i, tuple ) {
 
-							// Map tuples (progress, done, fail) to arguments (done, fail, progress)
+							// MapComponent tuples (progress, done, fail) to arguments (done, fail, progress)
 							var fn = isFunction( fns[ tuple[ 4 ] ] ) && fns[ tuple[ 4 ] ];
 
 							// deferred.progress(function() { bind to newDefer or newDefer.notify })
@@ -5124,7 +5124,7 @@ function safeActiveElement() {
 function on( elem, types, selector, data, fn, one ) {
 	var origFn, type;
 
-	// Types can be a map of types/handlers
+	// Types can be a MapComponent of types/handlers
 	if ( typeof types === "object" ) {
 
 		// ( types-Object, selector, data )
@@ -9184,7 +9184,7 @@ function ajaxConvert( s, response, jqXHR, isSuccess ) {
 		// Work with a copy of dataTypes in case we need to modify it for conversion
 		dataTypes = s.dataTypes.slice();
 
-	// Create converters map with lowercased keys
+	// Create converters MapComponent with lowercased keys
 	if ( dataTypes[ 1 ] ) {
 		for ( conv in s.converters ) {
 			converters[ conv.toLowerCase() ] = s.converters[ conv ];
@@ -10840,10 +10840,10 @@ if ( typeof define === "function" && define.amd ) {
 
 var
 
-	// Map over jQuery in case of overwrite
+	// MapComponent over jQuery in case of overwrite
 	_jQuery = window.jQuery,
 
-	// Map over the $ in case of overwrite
+	// MapComponent over the $ in case of overwrite
 	_$ = window.$;
 
 jQuery.noConflict = function( deep ) {

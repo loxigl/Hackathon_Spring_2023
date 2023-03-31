@@ -3,8 +3,6 @@ import styles from './Search.module.css';
 import GlassIcon from './glass.svg';
 import cn from 'classnames';
 import { Input,Button } from '@/components';
-import { useState, KeyboardEvent } from 'react';
-import { useRouter } from 'next/router';
 
 export const Search = ({ className, ...props }: SearchProps): JSX.Element => {
 
