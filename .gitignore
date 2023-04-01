@@ -4,7 +4,8 @@
 webapp/node_modules
 webapp/.pnp
 .pnp.js
-
+/.idea
+.idea
 # testing
 webapp/coverage
 

@@ -1,0 +1,17 @@
+.hello {
+  background: var(--white);
+  padding: 20px 50px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 70px;
+  border-radius: 6px 6px 0 0;
+}
+
+.textWrapper {
+  margin: 90px 0;
+}
+
+.title {
+  margin: 0 auto 50px;
+}
+

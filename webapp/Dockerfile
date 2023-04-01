@@ -4,7 +4,7 @@ RUN mkdir /webapp
 COPY . /webapp
 
 COPY package.json /webapp/package.json
-RUN cd /webapp; yarn install
+RUN cd /webapp; npm install --force
 
 COPY . /webapp
 
