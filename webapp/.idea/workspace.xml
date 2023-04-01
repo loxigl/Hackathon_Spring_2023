@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eec9f01b-e1b5-48c9-b2c2-ec7720f081da" name="Changes" comment="Добавляет Hell блок" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="front" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1377abf6-a655-4abe-bbe4-c7f0ed9e49cc" />
+        <option name="url" value="https://github.com/loxigl/Hackathon_Spring_2023.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N985pKPPekF0EmWv67FvKm23c6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;16.19.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;16.18.16&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/hg/Hackathon_Spring_2023/webapp/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\hg\\Hackathon_Spring_2023\\webapp\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\public" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\components\blocks\Hello" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\pages" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\layout" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\layout" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\components\common" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\components\composite" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\components\basic" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eec9f01b-e1b5-48c9-b2c2-ec7720f081da" name="Changes" comment="" />
+      <created>1679064756680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679064756680</updated>
+      <workItem from="1679064757929" duration="13309000" />
+      <workItem from="1679086382657" duration="8904000" />
+      <workItem from="1679145900483" duration="4065000" />
+      <workItem from="1679157853824" duration="5000" />
+      <workItem from="1679181258740" duration="1816000" />
+      <workItem from="1679262397028" duration="3642000" />
+      <workItem from="1679348140335" duration="3313000" />
+    </task>
+    <task id="LOCAL-00001" summary="Нулевка">
+      <created>1679068066426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679068066426</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Нулевка">
+      <created>1679068410702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679068410702</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Рабочие svg">
+      <created>1679070329074</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679070329074</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Рабочие svg">
+      <created>1679070334318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679070334318</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Чикнюк">
+      <created>1679078093809</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679078093809</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Чикнюк">
+      <created>1679078215731</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679078215731</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Откат">
+      <created>1679078894061</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679078894061</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Откат">
+      <created>1679078905421</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679078905421</updated>
+    </task>
+    <task id="LOCAL-00009" summary="footer">
+      <created>1679181959908</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679181959909</updated>
+    </task>
+    <task id="LOCAL-00010" summary="footer">
+      <created>1679182063954</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679182063954</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Добавляет Hell блок">
+      <created>1679350657776</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679350657776</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Нулевка" />
+    <MESSAGE value="Рабочие svg" />
+    <MESSAGE value="Чикнюк" />
+    <MESSAGE value="Откат" />
+    <MESSAGE value="footer" />
+    <MESSAGE value="Добавляет Hell блок" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавляет Hell блок" />
+  </component>
+</project>
