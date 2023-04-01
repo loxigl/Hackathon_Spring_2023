@@ -2,7 +2,7 @@ version: '3'
 
 services:
   db:
-    container_name: boiler_pgdb
+    container_name: db
     restart: always
     image: postgres:13-alpine
     environment:
@@ -17,13 +17,15 @@ services:
     volumes:
       - ./backend/dump.sql:/docker-entrypoint-initdb.d/dump.sql
   backend:
-    container_name: boiler_backend
+    container_name: backend
+    environment:
+      - DEBUG=False
     build:
       context: backend
       dockerfile: Dockerfile
     command:
       # ["python", "manage.py", "runserver", "0.0.0.0:8000"]
-      ["gunicorn", "--bind", ":8000", "backend.wsgi:application"]
+      [ "gunicorn", "--bind", ":8000", "backend.wsgi:application" ]
     volumes:
       - ./backend:/app/backend
       - /var/run/docker.sock:/var/run/docker.sock
@@ -35,7 +37,7 @@ services:
     links:
       - db:db
   webapp:
-    container_name: boiler_webapp
+    container_name: frontend
     build:
       context: webapp
       dockerfile: Dockerfile
@@ -52,7 +54,7 @@ services:
     links:
       - backend:backend
   nginx:
-    container_name: boiler_nginx
+    container_name: nginx
     image: nginx
     build:
       context: nginx
@@ -66,7 +68,7 @@ services:
       - webapp
     networks:
       - core
-    command: [nginx-debug, '-g', 'daemon off;']
+    command: [ nginx-debug, '-g', 'daemon off;' ]
 
 networks:
   core:
