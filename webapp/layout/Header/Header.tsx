@@ -13,7 +13,7 @@ export const Header = ({ className, ...props }: HeaderProps): JSX.Element => {
           <span className={styles.logoText}>TerraQuiz</span>
         </Link>
         <div className={styles.siteList}>
-          <Link className={styles.siteLink} href={'quizzes'}>
+          <Link className={styles.siteLink} href={'catalog'}>
             Викторины
           </Link>
         </div>
