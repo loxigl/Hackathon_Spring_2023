@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf78930e-471a-4fe6-b0cc-2e6a6d65d9c0" name="Changes" comment="fixes" />
+    <list default="true" id="be59e147-660e-403c-a16e-339b73796500" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/page-components/Quizzes/Quizzes.props.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/page-components/Quizzes/Quizzes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/pages/catalog/[_id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/pages/catalog/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2023_5_57__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2023_5_57__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/interfaces/quiz.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/interfaces/quiz.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/layout/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/pages/quizzes/[_id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/page-components/Quizzes/Quizzes.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/pages/quizzes/index.tsx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,166 +35,201 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="front" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1377abf6-a655-4abe-bbe4-c7f0ed9e49cc" />
+        <option name="url" value="https://github.com/loxigl/Hackathon_Spring_2023.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/webapp/package.json" />
-  </component>
-  <component name="ProjectId" id="2N8qdBoxW4KZoMwoW5jp0DtYOsp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2N8pISFTxzKQ6ob1jWOH3kih5t1" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Hackathon_Spring_2023-main/backend/backend/settings.py&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Hackathon_Spring_2023-main\\webapp\\node_modules\\typescript\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/hg/Hackathon_Spring_2023/webapp/components/blocks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "E:\\hg\\Hackathon_Spring_2023\\webapp\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\components\blocks" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\page-components" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\components\composite\map" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\components\composite" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp\layout\Header" />
+      <recent name="E:\hg\Hackathon_Spring_2023\webapp" />
+    </key>
+  </component>
   <component name="RunManager" selected="Docker.Unnamed">
-    <configuration name="localserv" type="Python.DjangoServer" factoryName="Django server">
-      <module name="Hackathon_Spring_2023-main" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="backend.settings" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\loxigl\AppData\Local\Microsoft\WindowsApps\python3.10.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unnamed" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="envFilePath" value="" />
+          <option name="commandLineOptions" value="--build" />
           <option name="sourceFilePath" value="docker-compose.yml" />
-          <option name="upDetach" value="false" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="db" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="containerName" value="" />
-          <option name="sourceFilePath" value="nginx/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="ssh" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="envFilePath" value="" />
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/webapp/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.localserv" />
       <item itemvalue="Docker.Unnamed" />
-      <item itemvalue="Docker.ssh" />
-      <item itemvalue="Docker.db" />
+      <item itemvalue="npm.dev" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf78930e-471a-4fe6-b0cc-2e6a6d65d9c0" name="Changes" comment="" />
-      <created>1679056141254</created>
+      <changelist id="be59e147-660e-403c-a16e-339b73796500" name="Changes" comment="" />
+      <created>1679055485077</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679056141254</updated>
-      <workItem from="1679056142460" duration="3026000" />
-      <workItem from="1679060164637" duration="4010000" />
-      <workItem from="1679105937300" duration="294000" />
-      <workItem from="1679106430715" duration="1971000" />
-      <workItem from="1679108413479" duration="2378000" />
-      <workItem from="1679997058181" duration="3161000" />
-      <workItem from="1680001207740" duration="4698000" />
-      <workItem from="1680374792918" duration="1114000" />
+      <updated>1679055485077</updated>
+      <workItem from="1679055489047" duration="381000" />
+      <workItem from="1679056441024" duration="2889000" />
+      <workItem from="1679059414007" duration="399000" />
+      <workItem from="1679059844016" duration="1848000" />
+      <workItem from="1679100988109" duration="62000" />
+      <workItem from="1679133218395" duration="150000" />
+      <workItem from="1679133387765" duration="510000" />
+      <workItem from="1679145552383" duration="343000" />
+      <workItem from="1679157873796" duration="6146000" />
+      <workItem from="1680286311948" duration="1611000" />
+      <workItem from="1680297754256" duration="2187000" />
+      <workItem from="1680374386894" duration="1095000" />
+      <workItem from="1680375523529" duration="213000" />
+      <workItem from="1680375754761" duration="68000" />
+      <workItem from="1680444628733" duration="19000" />
+      <workItem from="1680959108430" duration="1730000" />
+      <workItem from="1680992912531" duration="307000" />
+      <workItem from="1681045258249" duration="3516000" />
+      <workItem from="1681150657424" duration="1256000" />
+      <workItem from="1681152310330" duration="6318000" />
     </task>
-    <task id="LOCAL-00001" summary="bruh">
-      <created>1679058852585</created>
+    <task id="LOCAL-00001" summary="front-test">
+      <created>1679057579642</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1679058852585</updated>
+      <updated>1679057579642</updated>
     </task>
-    <task id="LOCAL-00002" summary="bruh">
-      <created>1679059131853</created>
+    <task id="LOCAL-00002" summary="front-test">
+      <created>1679057624200</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1679059131854</updated>
+      <updated>1679057624200</updated>
     </task>
-    <task id="LOCAL-00003" summary="bruh">
-      <created>1679103482056</created>
+    <task id="LOCAL-00003" summary="front">
+      <created>1679060115297</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1679103482056</updated>
+      <updated>1679060115297</updated>
     </task>
-    <task id="LOCAL-00004" summary="fixes">
-      <created>1679109288085</created>
+    <task id="LOCAL-00004" summary="front">
+      <created>1679060144749</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1679109288085</updated>
+      <updated>1679060144749</updated>
     </task>
-    <task id="LOCAL-00005" summary="fixes">
-      <created>1680005153695</created>
+    <task id="LOCAL-00005" summary="front, основная настройка">
+      <created>1679101043319</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1680005153695</updated>
+      <updated>1679101043319</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Готовая структура">
+      <created>1679158215273</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679158215273</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Header">
+      <created>1679167778406</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679167778406</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Map">
+      <created>1680288073037</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680288073037</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Map">
+      <created>1680305017619</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680305017619</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Map">
+      <created>1680375347197</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680375347197</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,47 +240,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/backend-test" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="front-test" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/master" />
-                </option>
-              </RecentGroup>
-            </list>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bruh" />
-    <MESSAGE value="fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <MESSAGE value="front-test" />
+    <MESSAGE value="front" />
+    <MESSAGE value="front, основная настройка" />
+    <MESSAGE value="Готовая структура" />
+    <MESSAGE value="Header" />
+    <MESSAGE value="Map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map" />
   </component>
 </project>

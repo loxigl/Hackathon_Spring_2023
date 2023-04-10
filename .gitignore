@@ -26,7 +26,7 @@ webapp/yarn-debug.log*
 webapp/yarn-error.log*
 
 # local env files
-webapp/.env.local
+webapp/.env
 webapp/.env.development.local
 webapp/.env.test.local
 .env.production.local
