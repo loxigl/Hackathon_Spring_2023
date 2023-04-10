@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf78930e-471a-4fe6-b0cc-2e6a6d65d9c0" name="Changes" comment="fixes" />
+    <list default="true" id="bf78930e-471a-4fe6-b0cc-2e6a6d65d9c0" name="Changes" comment="fixes">
+      <change afterPath="$PROJECT_DIR$/backend/backend/getmedia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2023_5_57__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2023_5_57__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/media/files/00013-74714593.png" beforeDir="false" afterPath="$PROJECT_DIR$/backend/media/00013-74714593.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/media/files/00013-74714593_Kn00b7U.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/media/files/00013-74714593_g4Zu7xJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/quiz/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/quiz/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/quiz/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,20 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Hackathon_Spring_2023-main/backend/backend/settings.py&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Hackathon_Spring_2023-main\\webapp\\node_modules\\typescript\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Hackathon_Spring_2023-main/docker-compose.yml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
+    "ts.external.directory.path": "D:\\Hackathon_Spring_2023-main\\webapp\\node_modules\\typescript\\lib"
   }
-}</component>
-  <component name="RunManager" selected="Docker.Unnamed">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Hackathon_Spring_2023-main\backend\media" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.build">
     <configuration name="localserv" type="Python.DjangoServer" factoryName="Django server">
       <module name="Hackathon_Spring_2023-main" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,6 +109,16 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="build" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="commandLineOptions" value="--build" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="db" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -112,6 +139,7 @@
     </configuration>
     <list>
       <item itemvalue="Django Server.localserv" />
+      <item itemvalue="Docker.build" />
       <item itemvalue="Docker.Unnamed" />
       <item itemvalue="Docker.ssh" />
       <item itemvalue="Docker.db" />
@@ -133,6 +161,9 @@
       <workItem from="1679997058181" duration="3161000" />
       <workItem from="1680001207740" duration="4698000" />
       <workItem from="1680374792918" duration="1114000" />
+      <workItem from="1680752836695" duration="6000" />
+      <workItem from="1681158817059" duration="450000" />
+      <workItem from="1681159575873" duration="1874000" />
     </task>
     <task id="LOCAL-00001" summary="bruh">
       <created>1679058852585</created>
@@ -186,7 +217,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/backend-test" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
