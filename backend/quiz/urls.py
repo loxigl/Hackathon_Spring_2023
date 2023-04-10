@@ -3,5 +3,6 @@ from .views import QuizView
 
 urlpatterns = [
     path('', QuizView.as_view()),
-    path('<int:id>/',QuizView.as_view()),
+    path('<int:id>/', QuizView.as_view()),
+
 ]

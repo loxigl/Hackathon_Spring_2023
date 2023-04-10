@@ -5,7 +5,8 @@ from django.db import models
 
 class Quiz(models.Model):
     id = models.AutoField(primary_key=True)
-    description = models.TextField()
+    title = models.TextField(max_length=100)
+    description = models.TextField(max_length=1000)
     photo = models.ImageField(upload_to='files/')
-    create_date = models.DateField(default=timezone.now())
+    createDate = models.DateField(default=timezone.now())
     # Create your models here.
