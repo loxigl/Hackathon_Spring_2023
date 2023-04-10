@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf78930e-471a-4fe6-b0cc-2e6a6d65d9c0" name="Changes" comment="media">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/getmedia.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/getmedia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +153,7 @@
       <workItem from="1680374792918" duration="1114000" />
       <workItem from="1680752836695" duration="6000" />
       <workItem from="1681158817059" duration="450000" />
-      <workItem from="1681159575873" duration="2853000" />
+      <workItem from="1681159575873" duration="3073000" />
     </task>
     <task id="LOCAL-00001" summary="bruh">
       <created>1679058852585</created>
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681161467205</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="media">
+      <created>1681162546742</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681162546742</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
