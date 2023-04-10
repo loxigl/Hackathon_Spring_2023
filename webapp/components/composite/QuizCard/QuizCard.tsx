@@ -8,12 +8,11 @@ import React from 'react';
 export const QuizCard = ({quiz, className, ...props}: QuizCardProps): JSX.Element => {
 
   return (
-    <div className={cn(className, styles.quiz)} {...props}>
+    <div className={cn(className, styles.card)} {...props}>
       {<h3>
-        {quiz.title && 'Заголовок'}
+        {!quiz.title && 'Заголовок'}
+        {quiz.title}
       </h3>
-
-
       }
       {quiz.description &&
         <P>

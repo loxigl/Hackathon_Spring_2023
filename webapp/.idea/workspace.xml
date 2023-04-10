@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eec9f01b-e1b5-48c9-b2c2-ec7720f081da" name="Changes" comment="Добавляет Hell блок">
-      <change afterPath="$PROJECT_DIR$/components/composite/QuizCard/QuizCard.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/composite/QuizCard/QuizCard.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/composite/QuizCard/QuizCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-components/Quizzes/Quizzes.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page-components/Quizzes/Quizzes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/catalog/[_id].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/catalog/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2023_5_57__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2023_5_57__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/quiz.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/quiz.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/quizzes/[_id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/page-components/Quizzes/Quizzes.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/quizzes/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/composite/QuizCard/QuizCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/composite/QuizCard/QuizCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/composite/QuizCard/QuizCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/composite/QuizCard/QuizCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +126,7 @@
       <workItem from="1681150376097" duration="233000" />
       <workItem from="1681150808484" duration="327000" />
       <workItem from="1681152212223" duration="53000" />
-      <workItem from="1681153878727" duration="5615000" />
+      <workItem from="1681153878727" duration="6234000" />
     </task>
     <task id="LOCAL-00001" summary="Нулевка">
       <created>1679068066426</created>

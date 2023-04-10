@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be59e147-660e-403c-a16e-339b73796500" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/page-components/Quizzes/Quizzes.props.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/page-components/Quizzes/Quizzes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/pages/catalog/[_id].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webapp/pages/catalog/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2023_5_57__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_03_2023_5_57__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/webapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/interfaces/quiz.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/interfaces/quiz.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/layout/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/pages/quizzes/[_id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/page-components/Quizzes/Quizzes.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/pages/quizzes/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="front" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -157,7 +140,7 @@
       <workItem from="1680992912531" duration="307000" />
       <workItem from="1681045258249" duration="3516000" />
       <workItem from="1681150657424" duration="1256000" />
-      <workItem from="1681152310330" duration="6318000" />
+      <workItem from="1681152310330" duration="6995000" />
     </task>
     <task id="LOCAL-00001" summary="front-test">
       <created>1679057579642</created>
@@ -229,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680375347197</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix">
+      <created>1681161501743</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681161501743</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +243,7 @@
     <MESSAGE value="Готовая структура" />
     <MESSAGE value="Header" />
     <MESSAGE value="Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
