@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be59e147-660e-403c-a16e-339b73796500" name="Changes" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.tsx" afterDir="false" />
+
+    <list default="true" id="bf78930e-471a-4fe6-b0cc-2e6a6d65d9c0" name="Changes" comment="media">
+      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,30 +54,56 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/hg/Hackathon_Spring_2023/webapp/components/blocks",
+
+    "last_opened_file_path": "D:/Hackathon_Spring_2023-main/docker-compose.yml",
     "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "E:\\hg\\Hackathon_Spring_2023\\webapp\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
+    "ts.external.directory.path": "D:\\Hackathon_Spring_2023-main\\webapp\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\hg\Hackathon_Spring_2023\webapp\components\blocks" />
-      <recent name="E:\hg\Hackathon_Spring_2023\webapp\page-components" />
-      <recent name="E:\hg\Hackathon_Spring_2023\webapp" />
-      <recent name="E:\hg\Hackathon_Spring_2023\webapp\components\composite\map" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\hg\Hackathon_Spring_2023\webapp\components\composite" />
-      <recent name="E:\hg\Hackathon_Spring_2023\webapp\layout\Header" />
-      <recent name="E:\hg\Hackathon_Spring_2023\webapp" />
+      <recent name="D:\Hackathon_Spring_2023-main\backend\media" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Unnamed">
+  <component name="RunManager" selected="Docker.build">
+    <configuration name="localserv" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Hackathon_Spring_2023-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="backend.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\loxigl\AppData\Local\Microsoft\WindowsApps\python3.10.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+
     <configuration name="Unnamed" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -90,18 +114,39 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/webapp/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <package-manager value="npm" />
-      <envs />
+
+    <configuration name="build" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="commandLineOptions" value="--build" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="db" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="nginx/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ssh" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Django Server.localserv" />
+      <item itemvalue="Docker.build" />
+
       <item itemvalue="Docker.Unnamed" />
       <item itemvalue="npm.dev" />
     </list>
@@ -120,27 +165,20 @@
       <created>1679055485077</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679055485077</updated>
-      <workItem from="1679055489047" duration="381000" />
-      <workItem from="1679056441024" duration="2889000" />
-      <workItem from="1679059414007" duration="399000" />
-      <workItem from="1679059844016" duration="1848000" />
-      <workItem from="1679100988109" duration="62000" />
-      <workItem from="1679133218395" duration="150000" />
-      <workItem from="1679133387765" duration="510000" />
-      <workItem from="1679145552383" duration="343000" />
-      <workItem from="1679157873796" duration="6146000" />
-      <workItem from="1680286311948" duration="1611000" />
-      <workItem from="1680297754256" duration="2187000" />
-      <workItem from="1680374386894" duration="1095000" />
-      <workItem from="1680375523529" duration="213000" />
-      <workItem from="1680375754761" duration="68000" />
-      <workItem from="1680444628733" duration="19000" />
-      <workItem from="1680959108430" duration="1730000" />
-      <workItem from="1680992912531" duration="307000" />
-      <workItem from="1681045258249" duration="3516000" />
-      <workItem from="1681150657424" duration="1256000" />
-      <workItem from="1681152310330" duration="6995000" />
+
+      <updated>1679056141254</updated>
+      <workItem from="1679056142460" duration="3026000" />
+      <workItem from="1679060164637" duration="4010000" />
+      <workItem from="1679105937300" duration="294000" />
+      <workItem from="1679106430715" duration="1971000" />
+      <workItem from="1679108413479" duration="2378000" />
+      <workItem from="1679997058181" duration="3161000" />
+      <workItem from="1680001207740" duration="4698000" />
+      <workItem from="1680374792918" duration="1114000" />
+      <workItem from="1680752836695" duration="6000" />
+      <workItem from="1681158817059" duration="450000" />
+      <workItem from="1681159575873" duration="3073000" />
+
     </task>
     <task id="LOCAL-00001" summary="front-test">
       <created>1679057579642</created>
@@ -205,21 +243,22 @@
       <option name="project" value="LOCAL" />
       <updated>1680305017619</updated>
     </task>
-    <task id="LOCAL-00010" summary="Map">
-      <created>1680375347197</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+
+    <task id="LOCAL-00006" summary="media">
+      <created>1681161467205</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1680375347197</updated>
+      <updated>1681161467205</updated>
     </task>
-    <task id="LOCAL-00011" summary="fix">
-      <created>1681161501743</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+    <task id="LOCAL-00007" summary="media">
+      <created>1681162546742</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1681161501743</updated>
+      <updated>1681162546742</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,20 +269,52 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="front-test" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="front-test" />
-    <MESSAGE value="front" />
-    <MESSAGE value="front, основная настройка" />
-    <MESSAGE value="Готовая структура" />
-    <MESSAGE value="Header" />
-    <MESSAGE value="Map" />
-    <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+
+    <MESSAGE value="bruh" />
+    <MESSAGE value="fixes" />
+    <MESSAGE value="media" />
+    <option name="LAST_COMMIT_MESSAGE" value="media" />
+
   </component>
 </project>

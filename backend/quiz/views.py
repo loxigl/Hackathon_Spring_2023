@@ -1,11 +1,17 @@
-from django.http import HttpResponse, JsonResponse
+import os
+from urllib.parse import unquote
+
+import mimetypes
+from django.http import HttpResponse, JsonResponse, FileResponse
 from rest_framework.decorators import api_view
+from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 
 from .serializers import QuizSerializer
 from .models import Quiz
+from django.conf import settings
 
 
 class QuizView(APIView):
@@ -31,5 +37,8 @@ class QuizView(APIView):
             ser.save()
             return JsonResponse(ser.data, status=201)
         return JsonResponse(ser.errors, status=400)
+
+
+
 
 # Create your views here.
