@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eec9f01b-e1b5-48c9-b2c2-ec7720f081da" name="Changes" comment="Добавляет Hell блок">
-      <change afterPath="$PROJECT_DIR$/public/blocks/Hello/mainBlock.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/quiz/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/quiz/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/quiz/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/quiz/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/blocks/Hello/Hello.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/blocks/Hello/Hello.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/composite/QuizCard/QuizCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/composite/QuizCard/QuizCard.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/composite/QuizCard/QuizCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/composite/QuizCard/QuizCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces/quiz.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces/quiz.interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-components/Quizzes/Quizzes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/page-components/Quizzes/Quizzes.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +123,7 @@
       <workItem from="1681210197897" duration="1271000" />
       <workItem from="1681216809151" duration="912000" />
       <workItem from="1681218430597" duration="854000" />
-      <workItem from="1681476391627" duration="5503000" />
+      <workItem from="1681476391627" duration="5892000" />
     </task>
     <task id="LOCAL-00001" summary="Нулевка">
       <created>1679068066426</created>
