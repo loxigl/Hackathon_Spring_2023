@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
     <list default="true" id="bf78930e-471a-4fe6-b0cc-2e6a6d65d9c0" name="Changes" comment="media">
-      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp/public/blocks/Hello/mainBlock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/quiz/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/quiz/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/quiz/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/components/blocks/Hello/Hello.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/components/blocks/Hello/Hello.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/components/composite/QuizCard/QuizCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/interfaces/quiz.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/interfaces/quiz.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/page-components/Quizzes/Quizzes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/page-components/Quizzes/Quizzes.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -28,47 +37,39 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="1377abf6-a655-4abe-bbe4-c7f0ed9e49cc" />
-        <option name="url" value="https://github.com/loxigl/Hackathon_Spring_2023.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2N8pISFTxzKQ6ob1jWOH3kih5t1" />
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/webapp/package.json" />
+  </component>
+  <component name="ProjectId" id="2N8qdBoxW4KZoMwoW5jp0DtYOsp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-
-    "last_opened_file_path": "D:/Hackathon_Spring_2023-main/docker-compose.yml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
-    "ts.external.directory.path": "D:\\Hackathon_Spring_2023-main\\webapp\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Hackathon_Spring_2023-main/docker-compose.yml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\hg\\Hackathon_Spring_2023\\webapp\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Hackathon_Spring_2023-main\backend\media" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.build">
+  <component name="RunManager" selected="Docker.Unnamed">
     <configuration name="localserv" type="Python.DjangoServer" factoryName="Django server">
       <module name="Hackathon_Spring_2023-main" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,18 +104,16 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-
     <configuration name="Unnamed" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
           <option name="envFilePath" value="" />
-          <option name="commandLineOptions" value="--build" />
           <option name="sourceFilePath" value="docker-compose.yml" />
+          <option name="upDetach" value="false" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
-
     <configuration name="build" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -144,28 +143,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.localserv" />
       <item itemvalue="Docker.build" />
-
       <item itemvalue="Docker.Unnamed" />
-      <item itemvalue="npm.dev" />
+      <item itemvalue="Docker.ssh" />
+      <item itemvalue="Docker.db" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.dev" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="be59e147-660e-403c-a16e-339b73796500" name="Changes" comment="" />
-      <created>1679055485077</created>
+      <changelist id="bf78930e-471a-4fe6-b0cc-2e6a6d65d9c0" name="Changes" comment="" />
+      <created>1679056141254</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-
       <updated>1679056141254</updated>
       <workItem from="1679056142460" duration="3026000" />
       <workItem from="1679060164637" duration="4010000" />
@@ -178,72 +168,48 @@
       <workItem from="1680752836695" duration="6000" />
       <workItem from="1681158817059" duration="450000" />
       <workItem from="1681159575873" duration="3073000" />
-
+      <workItem from="1681167638349" duration="719000" />
+      <workItem from="1681208273383" duration="3003000" />
+      <workItem from="1681216508372" duration="72000" />
+      <workItem from="1681218432903" duration="613000" />
+      <workItem from="1681219092421" duration="206000" />
+      <workItem from="1681476306337" duration="4215000" />
     </task>
-    <task id="LOCAL-00001" summary="front-test">
-      <created>1679057579642</created>
+    <task id="LOCAL-00001" summary="bruh">
+      <created>1679058852585</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1679057579642</updated>
+      <updated>1679058852585</updated>
     </task>
-    <task id="LOCAL-00002" summary="front-test">
-      <created>1679057624200</created>
+    <task id="LOCAL-00002" summary="bruh">
+      <created>1679059131853</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1679057624200</updated>
+      <updated>1679059131854</updated>
     </task>
-    <task id="LOCAL-00003" summary="front">
-      <created>1679060115297</created>
+    <task id="LOCAL-00003" summary="bruh">
+      <created>1679103482056</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1679060115297</updated>
+      <updated>1679103482056</updated>
     </task>
-    <task id="LOCAL-00004" summary="front">
-      <created>1679060144749</created>
+    <task id="LOCAL-00004" summary="fixes">
+      <created>1679109288085</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1679060144749</updated>
+      <updated>1679109288085</updated>
     </task>
-    <task id="LOCAL-00005" summary="front, основная настройка">
-      <created>1679101043319</created>
+    <task id="LOCAL-00005" summary="fixes">
+      <created>1680005153695</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1679101043319</updated>
+      <updated>1680005153695</updated>
     </task>
-    <task id="LOCAL-00006" summary="Готовая структура">
-      <created>1679158215273</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1679158215273</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Header">
-      <created>1679167778406</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1679167778406</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Map">
-      <created>1680288073037</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1680288073037</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Map">
-      <created>1680305017619</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1680305017619</updated>
-    </task>
-
     <task id="LOCAL-00006" summary="media">
       <created>1681161467205</created>
       <option name="number" value="00006" />
@@ -269,7 +235,6 @@
       <map>
         <entry key="MAIN">
           <value>
-
             <State>
               <option name="FILTERS">
                 <map>
@@ -303,18 +268,15 @@
                 </option>
               </RecentGroup>
             </list>
-
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-
     <MESSAGE value="bruh" />
     <MESSAGE value="fixes" />
     <MESSAGE value="media" />
     <option name="LAST_COMMIT_MESSAGE" value="media" />
-
   </component>
 </project>

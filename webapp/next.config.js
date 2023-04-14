@@ -1,12 +1,9 @@
 module.exports = {
   images: {
-    domains: ['lh3.googleusercontent.com'],
+    domains: ['localhost'],
   },
   webpack: (config) => {
     config.module.rules.push(
-      // {
-      // test: /\.scss$/, use: ['style-loader', 'css-loader', 'sass-loader']
-      // },
       {
       test: /\.svg$/, issuer: /\.[jt]sx?$/, use: [{
         loader: '@svgr/webpack', options: {

@@ -1,7 +1,7 @@
 export interface QuizModel {
-  id: string;
-  title?: string;
-  description?: string;
-  create_date: Date;
-  photo: string;
+  id: number
+  title: string
+  description?: string
+  photo: string
+  createDate: string
 }

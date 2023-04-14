@@ -5,4 +5,4 @@ from .models import Quiz
 class QuizSerializer(serializers.ModelSerializer):
    class Meta:
        model=Quiz
-       fields=['id','description','photo','create_date']
+       fields=['id', 'title','description','photo','createDate']
